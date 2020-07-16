@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112650886995",
+    "firebase_url": "https://domicilios-d6ca5.firebaseio.com",
+    "project_id": "domicilios-d6ca5",
+    "storage_bucket": "domicilios-d6ca5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112650886995:android:1f843572f72abab555cba6",
+        "android_client_info": {
+          "package_name": "com.nojoda.domicilio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112650886995-cpf9rdcf13tj391hai29gdeh7ih2h7fo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nojoda.domicilio",
+            "certificate_hash": "4e66458cb462d340f8b4a5ed754a788daf04adc2"
+          }
+        },
+        {
+          "client_id": "112650886995-knh5e9eno3b8mjdgmnqibog76jo79nad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4PlpSRO91540VKaP_UTn0rN9BnDU9hvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112650886995-knh5e9eno3b8mjdgmnqibog76jo79nad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

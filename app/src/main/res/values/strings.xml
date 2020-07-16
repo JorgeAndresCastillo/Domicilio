@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">domicilio</string>
+    <string name="btn_resgistrar">Resgistrar</string>
+    <string name="btn_entrar">entrar</string>
+    <string name="tile_domicilios">Domicilios</string>
+    <string name="tile_registro">Registrate</string>
+
+</resources>

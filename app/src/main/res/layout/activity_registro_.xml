@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Registro_Activity"
+
+    >
+
+    <Button
+        android:id="@+id/button_registar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PasswordConfirmacion_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/btn_resgistrar" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="83dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/scooter" />
+
+    <TextView
+        android:id="@+id/title_registro"
+        android:layout_width="247dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="38dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/tile_registro"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Email_registro"
+        android:textColorHint="@color/black"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/Nombres_registro"
+        android:layout_width="303dp"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Telefono_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nombres_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Soat_registro"
+        android:textColorHint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Telefono_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Fecha vigenencia Soat"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/Password_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Soat_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/PasswordConfirmacion_registro"
+        android:textColorHint="@color/black"
+        android:hint="Password Confirmacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password_registro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/icons8_email_100" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/icons8_male_user_100" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/icons8_phone_case_100" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/icons8_calendar_18_100" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/icons8_show_password_100" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/icons8_show_password_100" />
+
+
+
+
+
+</RelativeLayout>
